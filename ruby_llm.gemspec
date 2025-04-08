@@ -34,8 +34,8 @@ Gem::Specification.new do |spec|
   # Runtime dependencies
   spec.add_dependency 'base64'
   spec.add_dependency 'event_stream_parser', '~> 1'
-  spec.add_dependency 'faraday', '~> 2'
+  spec.add_dependency "faraday", '~> 1.0'
   spec.add_dependency 'faraday-multipart', '~> 1'
-  spec.add_dependency 'faraday-retry', '~> 2'
+  spec.add_dependency 'faraday-retry', '~> 1'
   spec.add_dependency 'zeitwerk', '~> 2'
 end
